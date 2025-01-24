@@ -1,0 +1,197 @@
+/* App Container - Flexbox layout to position sidebar, main content, and output box */
+.app {
+  display: flex;
+  font-family: Arial, sans-serif;
+  height: 100vh;
+  flex-direction: row; /* Keeps the sidebar and main content in a row */
+}
+
+/* Sidebar Styling (Left) */
+.sidebar {
+  width: 20%;
+  background-color: #f4f4f4;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+  resize: horizontal;
+  overflow: auto;
+  min-width: 200px;
+  max-width: 40%;
+}
+
+.sidebar h2 {
+  margin: 0 0 10px;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar ul li {
+  padding: 8px;
+  cursor: pointer;
+  border-bottom: 1px solid #ddd;
+}
+
+.sidebar ul li:hover,
+.sidebar ul li.active {
+  background-color: #ddd;
+}
+
+/* Main Content (Middle Area) */
+.main-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  overflow: auto;
+  width: 60%; /* Ensure it takes up the middle area */
+}
+
+/* Input Box Styling */
+.input-box {
+  display: flex;
+  gap: 10px;
+  padding: 10px;
+  border-top: 1px solid #ddd;
+  background-color: #f9f9f9;
+  margin-bottom: 20px;
+  align-items: center;
+}
+
+.input-box input {
+  flex: 1;
+  padding: 8px;
+  width: 100%;
+}
+
+.go-button {
+  margin-top: 10px;
+}
+
+.go-btn {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.go-btn:hover {
+  background-color: #0056b3;
+}
+
+/* Active Prompt and Image Grid below Input Box */
+.selected-prompt {
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.image-item {
+  padding: 5px;
+  border: 1px solid #ddd;
+  text-align: center;
+  cursor: pointer;
+}
+
+.image-item img {
+  width: 100%;
+  height: auto;
+}
+
+.image-item.selected {
+  background-color: #cceeff;
+  border: 2px solid #007bff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transform: scale(1.05);
+  transition: all 0.2s ease;
+}
+
+.submit-btn {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.submit-btn:hover {
+  background-color: #0056b3;
+}
+
+.submit-btn:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+/* Output Box (Right Sidebar) */
+.output-container {
+  width: 30%; /* Adjust output container width to 30% */
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-left: 1px solid #ddd;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  overflow-y: auto;
+  max-height: 100%;
+}
+
+/* Output Box Styling */
+.output-box {
+  width: 20%; /* Matches the sidebar width for consistency */
+  height: 100%; /* Fills the right-side height */
+  padding: 10px;
+  background-color: #f9f9f9;
+  border-left: 1px solid #ddd; /* Matches the sidebar border */
+  overflow-y: auto; /* Adds a scrollbar if content overflows */
+  font-family: "Courier New", Courier, monospace;
+  white-space: pre-wrap;
+  font-size: 14px; /* Adjust for readability */
+}
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+  .app {
+    flex-direction: column;
+  }
+
+  .sidebar {
+    width: 100%;
+    border-right: none;
+    border-bottom: 1px solid #ddd;
+  }
+
+  .main-content {
+    flex: none;
+    width: 100%;
+  }
+
+  .output-container {
+    width: 100%;
+    border-left: none;
+    margin-top: 20px;
+  }
+
+  .output-box {
+    width: 100%;
+  }
+
+  .image-grid {
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+  }
+
+  .submit-btn {
+    width: 100%;
+  }
+}
