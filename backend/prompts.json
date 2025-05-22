@@ -1,1 +1,62 @@
-["describe and give me the smiling persons", ["hio howb are you"], ["describe the images"], ["Is this smiling persons?"], ["hello give me the old persons"], ["hello give me the adult persons"], ["give me the smiling faces from given images"], ["Give me the old persons from given images"], ["vjbkkbkkhk"], ["which image has black background"], ["in the given image who is the older person"], ["is there Older person in the image"]]
+{
+  "Demographics": [
+    "Are these people old?",
+    "Is the person in the image male?",
+    "Is the person in the image female?",
+    "Is the person shown in the image male?"
+  ],
+  "Attire": [
+    "Is the person dressed in formal attire?",
+    "Is the person wearing formal attire?",
+    "Is the person wearing glasses?",
+    "Is the person in the image wearing a hat?",
+    "Is the person in the image wearing earrings?",
+    "Is the person wearing official  formal attire?"
+  ],
+  "Hair": [
+    "Does the person in the image have facial hair?"
+  ],
+  "Expression": [
+    "Are the person smiling in the following images?",
+    "Is the person in the image smiling?",
+    "Is the person in the image smiling with their teeth showing?",
+    "Do the people in this image have their eyes open?"
+  ],
+  "Pose": [
+    "Is the person facing the camera?"
+  ],
+  "Action": [
+    "Is the person in the image holding an object?"
+  ],
+  "Background": [
+    "Is the background of the image blurred?",
+    "Is the person in the image outdoors?",
+    "Is there a sunset in the background of the image?"
+  ],
+  "Body Art": [
+    "Does the person have any visible tattoos or piercings?"
+  ],
+  "Composition": [
+    "Are all people in this image in frame?"
+  ],
+  "Lighting": [
+    "Is the lighting in this photo well-balanced?",
+    "Are the images well lit?"
+  ],
+  "Image Quality": [
+    "Are the images in focus?"
+  ],
+  "General": [
+    "Is the person dressed in formal attire?"
+  ],
+  "Vehicle Type": [
+    "Is the vehicle electric?",
+    "Is the car red?",
+    "Are the headlights turned on?",
+    "Is the car's license plate visible?"
+  ],
+  "Vehicle Details": [
+    "Is the car's license plate visible?",
+    "Is the car's logo clearly visible?"
+  ]
+}

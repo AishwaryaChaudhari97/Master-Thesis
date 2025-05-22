@@ -1,0 +1,1508 @@
+{
+    "is the person in the image smiling with their teeth showing?": {
+        "given_images": [
+            "1.png",
+            "18.png",
+            "2.png",
+            "17.png",
+            "11.png",
+            "12.png",
+            "10.png",
+            "19.png"
+        ],
+        "Yes": [
+            "18.png",
+            "17.png",
+            "19.png"
+        ],
+        "No": [
+            "1.png",
+            "2.png",
+            "11.png",
+            "12.png",
+            "10.png"
+        ]
+    },
+    "does the person in the image have facial hair?": {
+        "given_images": [
+            "Person_Images_19.png",
+            "Person_Images_18.png",
+            "10.png",
+            "18.png",
+            "Person_Images_1.png",
+            "1.png",
+            "Person_Images_5.png",
+            "22.png",
+            "12.png",
+            "Person_Images_25.png",
+            "11.png",
+            "Person_Images_3.png",
+            "Person_Images_24.png",
+            "19.png",
+            "Person_Images_22.png",
+            "Person_Images_2.png",
+            "Person_Images_16.png",
+            "2.png",
+            "Person_Images_30.png",
+            "Person_Images_23.png",
+            "17.png"
+        ],
+        "Yes": [
+            "Person_Images_18.png",
+            "22.png"
+        ],
+        "No": [
+            "Person_Images_19.png",
+            "10.png",
+            "18.png",
+            "Person_Images_1.png",
+            "1.png",
+            "Person_Images_5.png",
+            "12.png",
+            "Person_Images_25.png",
+            "11.png",
+            "Person_Images_3.png",
+            "Person_Images_24.png",
+            "19.png",
+            "Person_Images_22.png",
+            "Person_Images_2.png",
+            "Person_Images_16.png",
+            "2.png",
+            "Person_Images_30.png",
+            "Person_Images_23.png",
+            "17.png"
+        ]
+    },
+    "is the person wearing professional clothing in the image?": {
+        "given_images": [
+            "11.png",
+            "10.png",
+            "12.png",
+            "2.png",
+            "1.png"
+        ],
+        "Yes": [
+            "1.png",
+            "2.png"
+        ],
+        "No": [
+            "11.png",
+            "12.png",
+            "10.png"
+        ]
+    },
+    "are the person smiling in the following images?": {
+        "given_images": [
+            "Person_Images_19.png",
+            "Person_Images_18.png",
+            "1.png",
+            "Person_Images_22.png",
+            "Person_Images_5.png",
+            "2.png",
+            "12.png",
+            "10.png",
+            "13.png",
+            "Person_Images_1.png",
+            "Person_Images_2.png",
+            "Person_Images_25.png",
+            "Person_Images_16.png",
+            "Person_Images_30.png",
+            "11.png",
+            "Person_Images_3.png",
+            "Person_Images_23.png",
+            "Person_Images_24.png"
+        ],
+        "Yes": [
+            "Person_Images_16.png",
+            "Person_Images_18.png",
+            "Person_Images_2.png",
+            "10.png"
+        ],
+        "No": [
+            "Person_Images_19.png",
+            "1.png",
+            "Person_Images_22.png",
+            "Person_Images_5.png",
+            "2.png",
+            "12.png",
+            "13.png",
+            "Person_Images_1.png",
+            "Person_Images_25.png",
+            "Person_Images_30.png",
+            "11.png",
+            "Person_Images_3.png",
+            "Person_Images_23.png",
+            "Person_Images_24.png"
+        ]
+    },
+    "what is the main focus of this image?": {
+        "given_images": [
+            "1.png",
+            "10.png"
+        ],
+        "Yes": [
+            "1.png",
+            "10.png"
+        ],
+        "No": []
+    },
+    "is the person in the image holding an object?": {
+        "given_images": [
+            "29.png",
+            "10.png",
+            "12.png",
+            "1.png",
+            "11.png",
+            "3.png"
+        ],
+        "Yes": [],
+        "No": [
+            "29.png",
+            "10.png",
+            "12.png",
+            "1.png",
+            "11.png",
+            "3.png"
+        ]
+    },
+    "is the background of the image blurred?": {
+        "given_images": [
+            "Person_Images_18.png",
+            "10.png",
+            "Person_Images_29.png",
+            "Person_Images_26.png",
+            "Person_Images_11.png",
+            "Person_Images_1.png",
+            "1.png",
+            "12.png",
+            "Person_Images_8.png",
+            "Person_Images_25.png",
+            "11.png",
+            "Person_Images_3.png",
+            "Person_Images_22.png",
+            "Person_Images_7.png",
+            "Person_Images_13.png",
+            "13.png",
+            "Person_Images_2.png",
+            "Person_Images_16.png",
+            "Person_Images_17.png",
+            "Person_Images_10.png",
+            "Person_Images_20.png",
+            "Person_Images_30.png",
+            "Person_Images_23.png",
+            "15.png",
+            "17.png"
+        ],
+        "Yes": [
+            "1.png",
+            "Person_Images_22.png",
+            "Person_Images_7.png",
+            "12.png",
+            "Person_Images_13.png",
+            "13.png",
+            "Person_Images_8.png",
+            "Person_Images_25.png",
+            "Person_Images_26.png",
+            "Person_Images_16.png",
+            "Person_Images_20.png",
+            "Person_Images_30.png",
+            "Person_Images_11.png",
+            "Person_Images_1.png",
+            "Person_Images_3.png",
+            "Person_Images_23.png",
+            "15.png"
+        ],
+        "No": [
+            "Person_Images_18.png",
+            "1.png",
+            "Person_Images_10.png",
+            "10.png",
+            "12.png",
+            "13.png",
+            "Person_Images_2.png",
+            "Person_Images_29.png",
+            "Person_Images_16.png",
+            "Person_Images_30.png",
+            "11.png",
+            "Person_Images_17.png",
+            "17.png"
+        ]
+    },
+    "is the person wearing formal attire?": {
+        "given_images": [
+            "10.png",
+            "Person_Images_19.png",
+            "16.png",
+            "Person_Images_1.png",
+            "13.png",
+            "Person_Images_20.png",
+            "1.png",
+            "Person_Images_27.png",
+            "Person_Images_22.png",
+            "Person_Images_24.png",
+            "Person_Images_14.png",
+            "12.png",
+            "Person_Images_3.png",
+            "Person_Images_13.png",
+            "Person_Images_23.png",
+            "Person_Images_21.png",
+            "15.png",
+            "Person_Images_30.png",
+            "Person_Images_25.png",
+            "Person_Images_2.png",
+            "Person_Images_11.png",
+            "Person_Images_7.png",
+            "Person_Images_26.png",
+            "Person_Images_29.png",
+            "11.png",
+            "Person_Images_15.png",
+            "17.png",
+            "Person_Images_16.png",
+            "2.png",
+            "23.png",
+            "30.png",
+            "Person_Images_17.png",
+            "19.png",
+            "14.png",
+            "Person_Images_10.png",
+            "Person_Images_12.png",
+            "22.png",
+            "Person_Images_18.png",
+            "18.png"
+        ],
+        "Yes": [
+            "10.png",
+            "Person_Images_16.png",
+            "2.png",
+            "Person_Images_10.png",
+            "Person_Images_30.png",
+            "14.png",
+            "1.png",
+            "30.png",
+            "Person_Images_22.png",
+            "22.png",
+            "Person_Images_2.png",
+            "Person_Images_14.png",
+            "12.png",
+            "Person_Images_7.png",
+            "Person_Images_26.png",
+            "Person_Images_15.png"
+        ],
+        "No": [
+            "10.png",
+            "Person_Images_19.png",
+            "16.png",
+            "Person_Images_1.png",
+            "13.png",
+            "Person_Images_20.png",
+            "1.png",
+            "Person_Images_27.png",
+            "Person_Images_22.png",
+            "Person_Images_24.png",
+            "Person_Images_14.png",
+            "12.png",
+            "Person_Images_3.png",
+            "Person_Images_13.png",
+            "Person_Images_23.png",
+            "Person_Images_21.png",
+            "15.png",
+            "Person_Images_30.png",
+            "Person_Images_25.png",
+            "Person_Images_2.png",
+            "Person_Images_11.png",
+            "Person_Images_7.png",
+            "Person_Images_26.png",
+            "Person_Images_29.png",
+            "11.png",
+            "Person_Images_15.png",
+            "17.png",
+            "Person_Images_16.png",
+            "2.png",
+            "23.png",
+            "30.png",
+            "Person_Images_17.png",
+            "19.png",
+            "14.png",
+            "Person_Images_10.png",
+            "Person_Images_12.png",
+            "22.png",
+            "Person_Images_18.png",
+            "18.png"
+        ]
+    },
+    "is the person in the image wearing a hat?": {
+        "given_images": [
+            "Person_Images_12.png",
+            "Person_Images_18.png",
+            "Person_Images_19.png",
+            "10.png",
+            "Person_Images_29.png",
+            "Person_Images_11.png",
+            "Person_Images_1.png",
+            "Person_Images_14.png",
+            "1.png",
+            "12.png",
+            "Person_Images_25.png",
+            "11.png",
+            "Person_Images_3.png",
+            "Person_Images_24.png",
+            "Person_Images_22.png",
+            "13.png",
+            "Person_Images_2.png",
+            "Person_Images_13.png",
+            "Person_Images_16.png",
+            "Person_Images_17.png",
+            "Person_Images_10.png",
+            "Person_Images_20.png",
+            "Person_Images_30.png",
+            "Person_Images_23.png"
+        ],
+        "Yes": [],
+        "No": [
+            "Person_Images_12.png",
+            "Person_Images_18.png",
+            "Person_Images_19.png",
+            "10.png",
+            "Person_Images_29.png",
+            "Person_Images_11.png",
+            "Person_Images_1.png",
+            "Person_Images_14.png",
+            "1.png",
+            "12.png",
+            "Person_Images_25.png",
+            "11.png",
+            "Person_Images_3.png",
+            "Person_Images_24.png",
+            "Person_Images_22.png",
+            "13.png",
+            "Person_Images_2.png",
+            "Person_Images_13.png",
+            "Person_Images_16.png",
+            "Person_Images_17.png",
+            "Person_Images_10.png",
+            "Person_Images_20.png",
+            "Person_Images_30.png",
+            "Person_Images_23.png"
+        ]
+    },
+    "are the person is wearing offical dress?": {
+        "given_images": [
+            "1.png",
+            "2.png",
+            "12.png",
+            "11.png",
+            "10.png",
+            "13.png"
+        ],
+        "Yes": [
+            "1.png"
+        ],
+        "No": [
+            "2.png",
+            "12.png",
+            "11.png",
+            "10.png",
+            "13.png"
+        ]
+    },
+    "are the person wearing offical cloth?": {
+        "given_images": [
+            "12.png",
+            "10.png",
+            "1.png",
+            "11.png"
+        ],
+        "Yes": [],
+        "No": [
+            "12.png",
+            "10.png",
+            "1.png",
+            "11.png"
+        ]
+    },
+    "are the person wearing office cloths?": {
+        "given_images": [
+            "11.png",
+            "12.png",
+            "1.png",
+            "10.png"
+        ],
+        "Yes": [
+            "1.png"
+        ],
+        "No": [
+            "11.png",
+            "12.png",
+            "10.png"
+        ]
+    },
+    "are the person wearing the office cloths?": {
+        "given_images": [
+            "11.png",
+            "1.png",
+            "10.png"
+        ],
+        "Yes": [
+            "1.png"
+        ],
+        "No": [
+            "11.png",
+            "10.png"
+        ]
+    },
+    "are the person wearing office cloth?": {
+        "given_images": [
+            "10.png",
+            "1.png"
+        ],
+        "Yes": [
+            "1.png"
+        ],
+        "No": [
+            "10.png"
+        ]
+    },
+    "are the images in focus?": {
+        "given_images": [
+            "Person_Images_12.png",
+            "10.png",
+            "Vegetable_0003.jpg",
+            "Person_Images_29.png",
+            "Person_Images_26.png",
+            "18.png",
+            "Person_Images_11.png",
+            "Person_Images_1.png",
+            "1.png",
+            "Vegetable_0005.jpg",
+            "12.png",
+            "Person_Images_25.png",
+            "11.png",
+            "Vegetable_0001.jpg",
+            "19.png",
+            "Person_Images_22.png",
+            "Person_Images_7.png",
+            "13.png",
+            "Person_Images_13.png",
+            "Person_Images_30.png",
+            "Vegetable_0004.jpg",
+            "Person_Images_10.png",
+            "Vegetable_0002.jpg",
+            "2.png",
+            "17.png"
+        ],
+        "Yes": [
+            "Person_Images_12.png",
+            "10.png",
+            "Vegetable_0003.jpg",
+            "Person_Images_29.png",
+            "Person_Images_26.png",
+            "18.png",
+            "Person_Images_11.png",
+            "Person_Images_1.png",
+            "1.png",
+            "Vegetable_0005.jpg",
+            "12.png",
+            "Person_Images_25.png",
+            "11.png",
+            "Vegetable_0001.jpg",
+            "19.png",
+            "Person_Images_22.png",
+            "Person_Images_7.png",
+            "13.png",
+            "Person_Images_13.png",
+            "Vegetable_0004.jpg",
+            "Person_Images_10.png",
+            "2.png",
+            "Person_Images_30.png",
+            "17.png"
+        ],
+        "No": [
+            "Vegetable_0002.jpg"
+        ]
+    },
+    "are all people in this image in frame?": {
+        "given_images": [
+            "Person_Images_19.png",
+            "Person_Images_18.png",
+            "28.png",
+            "10.png",
+            "18.png",
+            "Person_Images_1.png",
+            "1.png",
+            "Person_Images_5.png",
+            "12.png",
+            "Person_Images_25.png",
+            "11.png",
+            "Person_Images_3.png",
+            "Person_Images_24.png",
+            "Person_Images_22.png",
+            "13.png",
+            "5.png",
+            "Person_Images_2.png",
+            "Person_Images_16.png",
+            "3.png",
+            "Person_Images_30.png",
+            "Person_Images_23.png"
+        ],
+        "Yes": [
+            "Person_Images_19.png",
+            "Person_Images_18.png",
+            "28.png",
+            "Person_Images_1.png",
+            "1.png",
+            "Person_Images_5.png",
+            "12.png",
+            "Person_Images_25.png",
+            "11.png",
+            "Person_Images_3.png",
+            "Person_Images_24.png",
+            "Person_Images_22.png",
+            "13.png",
+            "5.png",
+            "Person_Images_2.png",
+            "Person_Images_16.png",
+            "3.png",
+            "Person_Images_30.png",
+            "Person_Images_23.png"
+        ],
+        "No": [
+            "18.png",
+            "10.png"
+        ]
+    },
+    "are these people old?": {
+        "given_images": [
+            "11.png",
+            "Person_Images_26.png",
+            "Person_Images_29.png",
+            "3.png",
+            "13.png",
+            "Person_Images_3.png",
+            "Person_Images_22.png",
+            "24.png",
+            "1.png",
+            "10.png",
+            "27.png",
+            "30.png",
+            "Person_Images_23.png",
+            "Person_Images_10.png",
+            "21.png",
+            "Person_Images_1.png",
+            "25.png",
+            "29.png",
+            "19.png",
+            "Person_Images_11.png",
+            "28.png",
+            "12.png",
+            "Person_Images_18.png",
+            "Person_Images_8.png",
+            "Person_Images_13.png",
+            "20.png"
+        ],
+        "Yes": [
+            "Person_Images_1.png",
+            "Person_Images_23.png",
+            "29.png",
+            "11.png",
+            "Person_Images_11.png",
+            "Person_Images_26.png",
+            "10.png",
+            "1.png",
+            "Person_Images_18.png",
+            "Person_Images_13.png",
+            "3.png",
+            "Person_Images_3.png",
+            "Person_Images_22.png"
+        ],
+        "No": [
+            "25.png",
+            "29.png",
+            "11.png",
+            "19.png",
+            "24.png",
+            "28.png",
+            "1.png",
+            "12.png",
+            "10.png",
+            "Person_Images_8.png",
+            "Person_Images_29.png",
+            "3.png",
+            "27.png",
+            "Person_Images_10.png",
+            "30.png",
+            "13.png",
+            "20.png",
+            "21.png"
+        ]
+    },
+    "are the person facing to camera?": {
+        "given_images": [
+            "1.png",
+            "10.png"
+        ],
+        "Yes": [
+            "1.png",
+            "10.png"
+        ],
+        "No": []
+    },
+    "are the person smiling?": {
+        "given_images": [
+            "1.png",
+            "10.png"
+        ],
+        "Yes": [
+            "10.png"
+        ],
+        "No": [
+            "1.png"
+        ]
+    },
+    "is the person old?": {
+        "given_images": [
+            "1.png",
+            "10.png"
+        ],
+        "Yes": [
+            "10.png"
+        ],
+        "No": [
+            "1.png"
+        ]
+    },
+    "do the people in this image have their eyes open?": {
+        "given_images": [
+            "12.png",
+            "10.png",
+            "5.png",
+            "13.png",
+            "3.png",
+            "28.png",
+            "11.png",
+            "1.png"
+        ],
+        "Yes": [
+            "12.png",
+            "10.png",
+            "5.png",
+            "13.png",
+            "3.png",
+            "28.png",
+            "11.png",
+            "1.png"
+        ],
+        "No": []
+    },
+    "are all people in this image in frame": {
+        "given_images": [
+            "1.png",
+            "10.png"
+        ],
+        "Yes": [
+            "1.png"
+        ],
+        "No": [
+            "10.png"
+        ]
+    },
+    "is the person dressed in formal attire?": {
+        "given_images": [
+            "3.png",
+            "10.png",
+            "Person_Images_19.png",
+            "8.png",
+            "Person_Images_1.png",
+            "13.png",
+            "Person_Images_20.png",
+            "16.png",
+            "1.png",
+            "Person_Images_27.png",
+            "Person_Images_22.png",
+            "Person_Images_24.png",
+            "4.png",
+            "Person_Images_14.png",
+            "12.png",
+            "Person_Images_3.png",
+            "6.png",
+            "Person_Images_13.png",
+            "28.png",
+            "Person_Images_23.png",
+            "7.png",
+            "26.png",
+            "Person_Images_21.png",
+            "15.png",
+            "Person_Images_30.png",
+            "Person_Images_2.png",
+            "Person_Images_25.png",
+            "25.png",
+            "29.png",
+            "Person_Images_11.png",
+            "Person_Images_7.png",
+            "Person_Images_29.png",
+            "Person_Images_26.png",
+            "11.png",
+            "17.png",
+            "Person_Images_15.png",
+            "Person_Images_16.png",
+            "2.png",
+            "23.png",
+            "30.png",
+            "Person_Images_17.png",
+            "20.png",
+            "27.png",
+            "9.png",
+            "19.png",
+            "21.png",
+            "14.png",
+            "24.png",
+            "Person_Images_10.png",
+            "Person_Images_28.png",
+            "Person_Images_12.png",
+            "22.png",
+            "Person_Images_18.png",
+            "5.png",
+            "18.png"
+        ],
+        "Yes": [
+            "10.png",
+            "Person_Images_19.png",
+            "16.png",
+            "Person_Images_1.png",
+            "1.png",
+            "Person_Images_22.png",
+            "Person_Images_24.png",
+            "Person_Images_14.png",
+            "12.png",
+            "Person_Images_13.png",
+            "Person_Images_23.png",
+            "15.png",
+            "Person_Images_30.png",
+            "Person_Images_2.png",
+            "Person_Images_25.png",
+            "Person_Images_7.png",
+            "Person_Images_26.png",
+            "Person_Images_15.png",
+            "Person_Images_16.png",
+            "Person_Images_17.png",
+            "14.png",
+            "Person_Images_10.png",
+            "Person_Images_12.png",
+            "22.png",
+            "Person_Images_18.png"
+        ],
+        "No": [
+            "3.png",
+            "10.png",
+            "Person_Images_19.png",
+            "8.png",
+            "Person_Images_1.png",
+            "13.png",
+            "Person_Images_20.png",
+            "16.png",
+            "1.png",
+            "Person_Images_27.png",
+            "Person_Images_22.png",
+            "Person_Images_24.png",
+            "4.png",
+            "Person_Images_14.png",
+            "12.png",
+            "Person_Images_3.png",
+            "6.png",
+            "Person_Images_13.png",
+            "28.png",
+            "Person_Images_23.png",
+            "7.png",
+            "26.png",
+            "Person_Images_21.png",
+            "15.png",
+            "Person_Images_30.png",
+            "Person_Images_2.png",
+            "Person_Images_25.png",
+            "25.png",
+            "29.png",
+            "Person_Images_11.png",
+            "Person_Images_7.png",
+            "Person_Images_29.png",
+            "Person_Images_26.png",
+            "11.png",
+            "17.png",
+            "Person_Images_15.png",
+            "Person_Images_16.png",
+            "2.png",
+            "23.png",
+            "30.png",
+            "Person_Images_17.png",
+            "20.png",
+            "27.png",
+            "9.png",
+            "19.png",
+            "21.png",
+            "14.png",
+            "24.png",
+            "Person_Images_10.png",
+            "Person_Images_28.png",
+            "Person_Images_12.png",
+            "22.png",
+            "Person_Images_18.png",
+            "5.png",
+            "18.png"
+        ]
+    },
+    "does the person have any visible tattoos or piercings?": {
+        "given_images": [
+            "Person_Images_19.png",
+            "Person_Images_18.png",
+            "10.png",
+            "Person_Images_29.png",
+            "Person_Images_1.png",
+            "1.png",
+            "Person_Images_5.png",
+            "Person_Images_25.png",
+            "Person_Images_3.png",
+            "Person_Images_24.png",
+            "Person_Images_22.png",
+            "Person_Images_2.png",
+            "Person_Images_16.png",
+            "Person_Images_15.png",
+            "Person_Images_17.png",
+            "Person_Images_10.png",
+            "Person_Images_30.png",
+            "Person_Images_23.png",
+            "15.png",
+            "17.png"
+        ],
+        "Yes": [
+            "Person_Images_15.png",
+            "15.png"
+        ],
+        "No": [
+            "Person_Images_19.png",
+            "Person_Images_18.png",
+            "1.png",
+            "Person_Images_22.png",
+            "Person_Images_10.png",
+            "Person_Images_5.png",
+            "Person_Images_17.png",
+            "10.png",
+            "Person_Images_2.png",
+            "Person_Images_25.png",
+            "Person_Images_29.png",
+            "Person_Images_16.png",
+            "Person_Images_30.png",
+            "Person_Images_1.png",
+            "Person_Images_3.png",
+            "Person_Images_23.png",
+            "Person_Images_24.png",
+            "17.png"
+        ]
+    },
+    "is the person in the image male?": {
+        "given_images": [
+            "11.png",
+            "Person_Images_26.png",
+            "Person_Images_29.png",
+            "3.png",
+            "13.png",
+            "Person_Images_3.png",
+            "Person_Images_22.png",
+            "24.png",
+            "10.png",
+            "1.png",
+            "Person_Images_21.png",
+            "30.png",
+            "15.png",
+            "Person_Images_23.png",
+            "2.png",
+            "Person_Images_10.png",
+            "21.png",
+            "Person_Images_1.png",
+            "25.png",
+            "17.png",
+            "29.png",
+            "Person_Images_24.png",
+            "Person_Images_11.png",
+            "12.png",
+            "Person_Images_17.png",
+            "Person_Images_18.png",
+            "Person_Images_8.png",
+            "Person_Images_13.png",
+            "20.png"
+        ],
+        "Yes": [
+            "Person_Images_1.png",
+            "25.png",
+            "Person_Images_23.png",
+            "29.png",
+            "Person_Images_24.png",
+            "24.png",
+            "1.png",
+            "Person_Images_17.png",
+            "Person_Images_13.png",
+            "3.png",
+            "30.png",
+            "20.png",
+            "Person_Images_3.png",
+            "Person_Images_22.png",
+            "21.png"
+        ],
+        "No": [
+            "15.png",
+            "17.png",
+            "11.png",
+            "Person_Images_11.png",
+            "Person_Images_26.png",
+            "10.png",
+            "12.png",
+            "Person_Images_21.png",
+            "Person_Images_18.png",
+            "Person_Images_8.png",
+            "Person_Images_29.png",
+            "2.png",
+            "Person_Images_10.png",
+            "13.png"
+        ]
+    },
+    "is the person shown in the image male?": {
+        "given_images": [
+            "21.png",
+            "29.png",
+            "3.png",
+            "17.png",
+            "30.png",
+            "27.png",
+            "1.png",
+            "20.png",
+            "10.png",
+            "15.png",
+            "24.png",
+            "25.png"
+        ],
+        "Yes": [
+            "21.png",
+            "29.png",
+            "30.png",
+            "27.png",
+            "1.png",
+            "20.png",
+            "3.png",
+            "24.png",
+            "25.png"
+        ],
+        "No": [
+            "17.png",
+            "15.png",
+            "10.png"
+        ]
+    },
+    "is the lighting in this photo well-balanced?": {
+        "given_images": [
+            "Person_Images_19.png",
+            "Person_Images_18.png",
+            "10.png",
+            "Vegetable_0003.jpg",
+            "Person_Images_1.png",
+            "1.png",
+            "Vegetable_0005.jpg",
+            "22.png",
+            "12.png",
+            "Person_Images_5.png",
+            "Person_Images_25.png",
+            "11.png",
+            "Person_Images_3.png",
+            "Vegetable_0001.jpg",
+            "Person_Images_24.png",
+            "Person_Images_22.png",
+            "13.png",
+            "Person_Images_2.png",
+            "Person_Images_16.png",
+            "Vegetable_0004.jpg",
+            "Vegetable_0002.jpg",
+            "Person_Images_30.png",
+            "Person_Images_23.png"
+        ],
+        "Yes": [
+            "1.png",
+            "Person_Images_22.png",
+            "Vegetable_0005.jpg",
+            "22.png",
+            "12.png",
+            "Person_Images_5.png",
+            "13.png",
+            "Person_Images_1.png",
+            "Person_Images_2.png",
+            "Person_Images_25.png",
+            "Vegetable_0003.jpg",
+            "Person_Images_24.png",
+            "Person_Images_16.png",
+            "Person_Images_30.png",
+            "11.png",
+            "Person_Images_3.png",
+            "Person_Images_23.png",
+            "Vegetable_0001.jpg"
+        ],
+        "No": [
+            "Person_Images_19.png",
+            "Person_Images_18.png",
+            "Vegetable_0002.jpg",
+            "10.png",
+            "Vegetable_0004.jpg"
+        ]
+    },
+    "is the focus sharp on the main subject?": {
+        "given_images": [
+            "11.png",
+            "10.png",
+            "12.png",
+            "1.png",
+            "13.png"
+        ],
+        "Yes": [
+            "11.png",
+            "10.png",
+            "12.png",
+            "1.png",
+            "13.png"
+        ],
+        "No": []
+    },
+    "is the person facing the camera?": {
+        "given_images": [
+            "11.png",
+            "10.png",
+            "3.png",
+            "15.png",
+            "12.png",
+            "1.png",
+            "13.png"
+        ],
+        "Yes": [
+            "11.png",
+            "10.png",
+            "3.png",
+            "15.png",
+            "12.png",
+            "1.png",
+            "13.png"
+        ],
+        "No": []
+    },
+    "does this image have a good dynamic range": {
+        "given_images": [
+            "11.png",
+            "10.png",
+            "1.png",
+            "12.png",
+            "13.png"
+        ],
+        "Yes": [
+            "11.png",
+            "1.png",
+            "12.png",
+            "13.png"
+        ],
+        "No": [
+            "10.png"
+        ]
+    },
+    "is there any noticeable noise in this image?": {
+        "given_images": [
+            "11.png",
+            "10.png",
+            "1.png",
+            "12.png",
+            "13.png"
+        ],
+        "Yes": [
+            "10.png"
+        ],
+        "No": [
+            "11.png",
+            "1.png",
+            "12.png",
+            "13.png"
+        ]
+    },
+    "does this image have a good dynamic range?": {
+        "given_images": [
+            "11.png",
+            "10.png",
+            "1.png",
+            "12.png",
+            "13.png"
+        ],
+        "Yes": [
+            "11.png",
+            "1.png",
+            "12.png",
+            "13.png"
+        ],
+        "No": [
+            "10.png"
+        ]
+    },
+    "are the images well lit?": {
+        "given_images": [
+            "12.png",
+            "10.png",
+            "13.png",
+            "24.png",
+            "30.png",
+            "2.png",
+            "11.png",
+            "1.png"
+        ],
+        "Yes": [
+            "12.png",
+            "10.png",
+            "13.png",
+            "24.png",
+            "30.png",
+            "2.png",
+            "11.png",
+            "1.png"
+        ],
+        "No": [
+            "11.png"
+        ]
+    },
+    "is the vehicle electric?": {
+        "given_images": [
+            "images_2_Acura_ILX_2013_28_16_110_15_4_70_55_179_39_FWD_5_4_4dr_Ofi.jpg",
+            "images_2_Acura_ILX_2013_28_16_110_15_4_70_55_179_39_FWD_5_4_4dr_aWg.jpg",
+            "images_2_Acura_ILX_2013_28_16_110_15_4_70_55_179_39_FWD_5_4_4dr_onJ.jpg",
+            "images_2_Acura_ILX_2013_28_16_110_15_4_70_55_179_39_FWD_5_4_4dr_plr.jpg",
+            "images_2_Acura_ILX_2013_28_16_110_15_4_70_55_179_39_FWD_5_4_4dr_Bbw.jpg"
+        ],
+        "Yes": [],
+        "No": [
+            "images_2_Acura_ILX_2013_28_16_110_15_4_70_55_179_39_FWD_5_4_4dr_Ofi.jpg",
+            "images_2_Acura_ILX_2013_28_16_110_15_4_70_55_179_39_FWD_5_4_4dr_aWg.jpg",
+            "images_2_Acura_ILX_2013_28_16_110_15_4_70_55_179_39_FWD_5_4_4dr_onJ.jpg",
+            "images_2_Acura_ILX_2013_28_16_110_15_4_70_55_179_39_FWD_5_4_4dr_plr.jpg",
+            "images_2_Acura_ILX_2013_28_16_110_15_4_70_55_179_39_FWD_5_4_4dr_Bbw.jpg"
+        ]
+    },
+    "is the person wearing official  formal attire?": {
+        "given_images": [
+            "Person_Images_19.png",
+            "Person_Images_18.png",
+            "Person_Images_12.png",
+            "Person_Images_29.png",
+            "Person_Images_26.png",
+            "Person_Images_11.png",
+            "Person_Images_1.png",
+            "Person_Images_14.png",
+            "Person_Images_25.png",
+            "Person_Images_21.png",
+            "Person_Images_3.png",
+            "Person_Images_24.png",
+            "Person_Images_22.png",
+            "Person_Images_13.png",
+            "Person_Images_2.png",
+            "Person_Images_16.png",
+            "Person_Images_15.png",
+            "Person_Images_17.png",
+            "Person_Images_10.png",
+            "Person_Images_27.png",
+            "Person_Images_20.png",
+            "Person_Images_30.png",
+            "Person_Images_23.png"
+        ],
+        "Yes": [
+            "Person_Images_19.png",
+            "Person_Images_22.png",
+            "Person_Images_10.png",
+            "Person_Images_2.png",
+            "Person_Images_25.png",
+            "Person_Images_16.png",
+            "Person_Images_30.png"
+        ],
+        "No": [
+            "Person_Images_19.png",
+            "Person_Images_18.png",
+            "Person_Images_12.png",
+            "Person_Images_29.png",
+            "Person_Images_26.png",
+            "Person_Images_11.png",
+            "Person_Images_1.png",
+            "Person_Images_14.png",
+            "Person_Images_25.png",
+            "Person_Images_21.png",
+            "Person_Images_3.png",
+            "Person_Images_24.png",
+            "Person_Images_22.png",
+            "Person_Images_13.png",
+            "Person_Images_2.png",
+            "Person_Images_16.png",
+            "Person_Images_15.png",
+            "Person_Images_17.png",
+            "Person_Images_10.png",
+            "Person_Images_27.png",
+            "Person_Images_20.png",
+            "Person_Images_30.png",
+            "Person_Images_23.png"
+        ]
+    },
+    "is the person wearing glasses?": {
+        "given_images": [
+            "Person_Images_19.png",
+            "Person_Images_1.png",
+            "Person_Images_20.png",
+            "Person_Images_27.png",
+            "Person_Images_22.png",
+            "Person_Images_24.png",
+            "Person_Images_14.png",
+            "Person_Images_13.png",
+            "Person_Images_3.png",
+            "Person_Images_23.png",
+            "Person_Images_21.png",
+            "Person_Images_30.png",
+            "Person_Images_2.png",
+            "Person_Images_25.png",
+            "Person_Images_11.png",
+            "Person_Images_26.png",
+            "Person_Images_29.png",
+            "Person_Images_15.png",
+            "Person_Images_16.png",
+            "Person_Images_17.png",
+            "Person_Images_10.png",
+            "Person_Images_28.png",
+            "Person_Images_12.png",
+            "Person_Images_18.png"
+        ],
+        "Yes": [
+            "Person_Images_29.png",
+            "Person_Images_1.png",
+            "Person_Images_2.png"
+        ],
+        "No": [
+            "Person_Images_19.png",
+            "Person_Images_1.png",
+            "Person_Images_20.png",
+            "Person_Images_27.png",
+            "Person_Images_22.png",
+            "Person_Images_24.png",
+            "Person_Images_14.png",
+            "Person_Images_13.png",
+            "Person_Images_3.png",
+            "Person_Images_23.png",
+            "Person_Images_21.png",
+            "Person_Images_30.png",
+            "Person_Images_2.png",
+            "Person_Images_25.png",
+            "Person_Images_11.png",
+            "Person_Images_26.png",
+            "Person_Images_29.png",
+            "Person_Images_15.png",
+            "Person_Images_16.png",
+            "Person_Images_17.png",
+            "Person_Images_10.png",
+            "Person_Images_28.png",
+            "Person_Images_12.png",
+            "Person_Images_18.png"
+        ]
+    },
+    "is the person wearing normal glasses?": {
+        "given_images": [
+            "Person_Images_22.png",
+            "Person_Images_10.png",
+            "Person_Images_23.png",
+            "Person_Images_2.png",
+            "Person_Images_18.png",
+            "Person_Images_1.png",
+            "Person_Images_14.png"
+        ],
+        "Yes": [
+            "Person_Images_1.png"
+        ],
+        "No": [
+            "Person_Images_22.png",
+            "Person_Images_10.png",
+            "Person_Images_23.png",
+            "Person_Images_2.png",
+            "Person_Images_18.png",
+            "Person_Images_14.png"
+        ]
+    },
+    "womans?": {
+        "given_images": [
+            "Person_Images_18.png",
+            "Person_Images_2.png",
+            "Person_Images_6.png",
+            "Person_Images_5.png",
+            "Person_Images_17.png",
+            "Person_Images_11.png",
+            "Person_Images_16.png",
+            "Person_Images_9.png",
+            "Person_Images_19.png",
+            "Person_Images_29.png",
+            "Person_Images_13.png",
+            "Person_Images_15.png",
+            "Person_Images_4.png",
+            "Person_Images_8.png",
+            "Person_Images_12.png",
+            "Person_Images_10.png",
+            "Person_Images_14.png",
+            "Person_Images_3.png",
+            "Person_Images_28.png",
+            "Person_Images_1.png",
+            "Person_Images_7.png"
+        ],
+        "Yes": [
+            "Person_Images_18.png",
+            "Person_Images_2.png",
+            "Person_Images_6.png",
+            "Person_Images_5.png",
+            "Person_Images_17.png",
+            "Person_Images_11.png",
+            "Person_Images_16.png",
+            "Person_Images_9.png",
+            "Person_Images_19.png",
+            "Person_Images_29.png",
+            "Person_Images_13.png",
+            "Person_Images_15.png",
+            "Person_Images_4.png",
+            "Person_Images_8.png",
+            "Person_Images_12.png",
+            "Person_Images_10.png",
+            "Person_Images_14.png",
+            "Person_Images_3.png",
+            "Person_Images_28.png",
+            "Person_Images_7.png"
+        ],
+        "No": [
+            "Person_Images_1.png"
+        ]
+    },
+    "elderly womans?": {
+        "given_images": [
+            "Person_Images_18.png",
+            "Person_Images_2.png",
+            "Person_Images_6.png",
+            "Person_Images_5.png",
+            "Person_Images_17.png",
+            "Person_Images_11.png",
+            "Person_Images_16.png",
+            "Person_Images_9.png",
+            "Person_Images_19.png",
+            "Person_Images_29.png",
+            "Person_Images_13.png",
+            "Person_Images_15.png",
+            "Person_Images_4.png",
+            "Person_Images_8.png",
+            "Person_Images_12.png",
+            "Person_Images_10.png",
+            "Person_Images_14.png",
+            "Person_Images_3.png",
+            "Person_Images_28.png",
+            "Person_Images_1.png",
+            "Person_Images_7.png"
+        ],
+        "Yes": [],
+        "No": [
+            "Person_Images_18.png",
+            "Person_Images_2.png",
+            "Person_Images_6.png",
+            "Person_Images_5.png",
+            "Person_Images_17.png",
+            "Person_Images_11.png",
+            "Person_Images_16.png",
+            "Person_Images_9.png",
+            "Person_Images_19.png",
+            "Person_Images_29.png",
+            "Person_Images_13.png",
+            "Person_Images_15.png",
+            "Person_Images_4.png",
+            "Person_Images_8.png",
+            "Person_Images_12.png",
+            "Person_Images_10.png",
+            "Person_Images_14.png",
+            "Person_Images_3.png",
+            "Person_Images_28.png",
+            "Person_Images_1.png",
+            "Person_Images_7.png"
+        ]
+    },
+    "is the person in the image wearing earrings?": {
+        "given_images": [
+            "Person_Images_22.png",
+            "Person_Images_13.png",
+            "Person_Images_2.png",
+            "Person_Images_25.png",
+            "Person_Images_1.png",
+            "Person_Images_23.png",
+            "Person_Images_24.png"
+        ],
+        "Yes": [
+            "Person_Images_13.png"
+        ],
+        "No": [
+            "Person_Images_22.png",
+            "Person_Images_2.png",
+            "Person_Images_25.png",
+            "Person_Images_1.png",
+            "Person_Images_23.png",
+            "Person_Images_24.png"
+        ]
+    },
+    "is the person appropriately dressed for a formal setting?": {
+        "given_images": [
+            "Person_Images_12.png",
+            "Person_Images_22.png",
+            "Person_Images_10.png",
+            "Person_Images_7.png",
+            "Person_Images_13.png",
+            "Person_Images_25.png",
+            "Person_Images_29.png",
+            "Person_Images_26.png",
+            "Person_Images_30.png",
+            "Person_Images_11.png",
+            "Person_Images_1.png"
+        ],
+        "Yes": [
+            "Person_Images_12.png",
+            "Person_Images_13.png",
+            "Person_Images_10.png",
+            "Person_Images_7.png"
+        ],
+        "No": [
+            "Person_Images_22.png",
+            "Person_Images_25.png",
+            "Person_Images_29.png",
+            "Person_Images_26.png",
+            "Person_Images_30.png",
+            "Person_Images_11.png",
+            "Person_Images_1.png"
+        ]
+    },
+    "are the images visually sharp?": {
+        "given_images": [
+            "Person_Images_12.png",
+            "Person_Images_22.png",
+            "Person_Images_10.png",
+            "Person_Images_7.png",
+            "Person_Images_13.png",
+            "Person_Images_25.png",
+            "Person_Images_29.png",
+            "Person_Images_26.png",
+            "Person_Images_30.png",
+            "Person_Images_11.png",
+            "Person_Images_1.png"
+        ],
+        "Yes": [
+            "Person_Images_12.png",
+            "Person_Images_22.png",
+            "Person_Images_10.png",
+            "Person_Images_7.png",
+            "Person_Images_13.png",
+            "Person_Images_25.png",
+            "Person_Images_29.png",
+            "Person_Images_30.png",
+            "Person_Images_11.png",
+            "Person_Images_1.png"
+        ],
+        "No": [
+            "Person_Images_26.png"
+        ]
+    }
+}

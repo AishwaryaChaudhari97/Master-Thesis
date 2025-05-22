@@ -1,0 +1,386 @@
+.binary-mode{
+    display: flex;
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    
+  }
+  
+  @keyframes sidebarFloatIn {
+  0% {
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.binary-mode .large-upload {
+  font-size: 16px;
+  padding: 10px 15px;
+  width: 800px;
+  height: 70px;
+  cursor: pointer;
+}
+
+.input-file {
+  display: none;
+}
+
+.upload-label {
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+/* Style the custom button */
+.binary-mode .upload-button {
+  font-size: 14px; /* Reduced font size */
+  padding: 6px 10px; /* Reduced padding */
+  border-radius: 4px; /* Slightly smaller border radius */
+  background-color: #f3eeeee8;
+  color: rgb(16, 15, 15);
+  border: 1px solid #ddddddb7;
+  outline: none;
+  cursor: pointer;
+  display: inline-block;
+  margin-top: 4px; /* Slight margin for spacing */
+  text-align: center;
+  margin-left: 0px; /* Aligned properly */
+  width: auto; /* Adjust width to fit text */
+}
+
+.upload-button:hover {
+  background-color: #e3e3e3;
+}
+
+.upload-container {
+  display: flex;
+  justify-content: flex-end; /* Align button to the right */
+  margin-top: 20px; /* Optional: Add space above the container */
+
+}
+
+.binary-mode .sidebar {
+  width: 20%;
+  background-color: #301919e8;
+  padding: 10px;
+  border-right: 1px solid #ddddddb7;
+  overflow-y: auto;
+  height: 100vh;
+  animation: sidebarFloatIn 1.5s ease-out forwards;
+  
+  /* Apply to all direct children inside sidebar */
+  color: white;
+  font-size: 24px; /* Or any size you want */
+}
+  
+  .binary-mode .sidebar ul li {
+    cursor: pointer;
+    padding: 10px;
+    transition: background-color 0.3s ease;
+    color: #ccc;
+  }
+  
+  .binary-mode .sidebar ul li:hover {
+    background-color: #1c1a1a; /* Light gray background on hover */
+  }
+  
+  .binary-mode .sidebar ul li.active {
+    background-color: #1c1a1a; /* Slightly darker background for selected item */
+    font-weight: bold;
+  }
+  
+  .binary-mode .main-content {
+    flex: 1;
+    padding: 20px;
+    overflow-y: auto; /* Allows page scroll */
+    
+  }
+  
+  .binary-mode .input-box {
+    display: flex;
+    flex-direction: column; /* Stack input and button */
+    gap: 10px;
+    align-items: center;
+    width: 100%; /* Adjust width as needed */
+  }
+
+  .binary-mode .large-textarea {
+    width: 100%;
+    max-width: 500px; /* Allow the width to be flexible */
+    height: 50px; /* Set the desired height */
+    font-size: 18px; /* Adjust font size */
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    resize: vertical; /* Allow users to resize vertically */
+    overflow-wrap: break-word; /* Ensures text wraps */
+    word-wrap: break-word; /* Ensure word wrap works */
+    white-space: pre-wrap; /* Preserves new lines and wraps text */
+  }
+  
+  
+  .binary-mode .button-checkbox-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .binary-mode .large-button {
+    width: 110px; /* Make button bigger */
+    height: 40px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+    border: none;
+  }
+  
+  .binary-mode .large-button:disabled {
+    background-color: gray;
+    cursor: not-allowed;
+  }
+  
+  .binary-mode .large-checkbox {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+  }
+  /* Category buttons */
+  .binary-mode .category-buttons {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));  /* Ensure flexible grid */
+    gap: 10px;
+  }
+  
+  @media (max-width: 768px) {
+    .binary-mode .category-buttons {
+      grid-template-columns: repeat(2, 1fr);  /* 2 buttons per row on smaller screens */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .binary-mode .category-buttons {
+      grid-template-columns: 1fr;  /* 1 button per row on very small screens */
+    }
+  }
+  
+  .binary-mode .category-button {
+    font-size: 16px;
+    padding: 8px 12px;
+    margin: 5px;
+    background-color: #0a0a0a;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+    font-weight: bold; /* Added this line to make the text bold */
+  }
+  
+  .binary-mode .category-button:hover {
+    background-color: #111fe6;
+  }
+  
+  .binary-mode .dropdown-list {
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    padding: 10px;
+    list-style-type: none;
+    margin-top: 5px;
+    color: #0a0a0a;
+  }
+  
+  .binary-mode .dropdown-list li {
+    font-size: 16px;         /* Adjust font size if needed */
+    margin: 5px 0;           /* Space between each list item */
+    padding-left: 24px;      /* Add padding to the left to make space for the bullet */
+    position: relative;      /* Ensure positioning for the bullet */
+    color: #0a0a0a;
+  }
+  
+  .binary-mode .dropdown-list li::before {
+    content: "•";            /* Bullet point symbol */
+    font-size: 20px;         /* Adjust size of the bullet */
+    position: relative;      /* Position the bullet inside the li */
+    left: 0;                 /* Align bullet to the left inside the list item */
+    top: 50%;                /* Center the bullet vertically */
+    transform: translateY(-50%); /* Ensure the bullet is vertically centered */
+    color: #0a0a0a;          /* Set bullet color */
+  }
+  .binary-mode .dropdown-list li span {
+    padding-left: 10px;  /* Add space between the bullet and the text */
+}
+  .binary-mode .dropdown-list li:hover {
+    background-color: #3498db;
+    color: white;
+  }
+  
+  .binary-mode .dropdown-list li.active {
+    background-color: #e1e6e9;
+    color: white;
+  }
+  
+  .binary-mode .category {
+    position: relative; /* To position the dropdown relative to the button */
+  }
+  .binary-mode .image-grid {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 20px;
+    background-color: #301919e8;
+  }
+  
+  @keyframes floatIn {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .binary-mode .image-item {
+    margin-top: 8px;
+    padding: 8px;
+    background-color: #412222d4;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+    color: #333;
+    animation: floatIn 2.5s ease forwards;
+  }
+  
+  .binary-mode .image-item img {
+    width: 100%;
+  
+    
+  }
+
+  .binary-mode #custom-image-grid { /* Use your custom image grid ID here */
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    gap: 10px;
+    margin-top: 20px;
+  }
+  /*
+  .highlight-yes {
+    border: 4px solid green;
+  }
+  
+  .highlight-no {
+    border: 4px solid red;
+  }*/
+  
+  .binary-mode .image-item.selected.highlight-yes {
+    border: 4px solid green !important;
+    background-color: rgba(0, 255, 0, 0.847) !important; /* Light green background */
+  }
+  
+  .binary-mode .image-item.selected.highlight-no {
+    border: 4px solid red !important;
+    background-color: rgba(238, 22, 22, 0.9) !important; /* Light red background */
+  }
+  
+  
+  .binary-mode .image-item.selected {
+    background-color: #f0f3f4;
+    border: 4px solid #16023a;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transform: scale(1.05);
+    transition: all 0.2s ease;
+  }
+  
+  .binary-mode .image-item input {
+    width: 100%;
+    padding: 5px;
+    margin-top: 5px;
+  }
+  
+  .binary-mode .output-grid {
+    display: flex;
+    flex-wrap: wrap; /* Allow wrapping to new rows if there are too many images */
+    gap: 10px; /* Space between images in the grid */
+    padding-top: 5px; /* Space between header and images */
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  .binary-mode .output-row {
+    display: flex; /* Align images horizontally in the row */
+    gap: 10px; /* Space between each image */
+    overflow-x: auto; /* Enable horizontal scrolling if needed */
+    padding: 5px 0; /* Add vertical padding for better spacing */
+    white-space: nowrap; /* Prevent wrapping of images within the row */
+  }
+  
+  .binary-mode .output-item {
+    background: none;
+    box-shadow: none;
+    border: none;
+    padding: 0;
+    margin: 0; /* Remove any default margin */
+    flex-shrink: 0; /* Prevent images from shrinking */
+    /* Animation added */
+   
+  }
+  
+  @keyframes floatDown {
+    0% {
+      transform: translateY(-50px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  .binary-mode .output-image {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin: 0;
+    
+    animation: floatDown 1.5s ease-out forwards;
+  }
+  @keyframes sidebarFloatInFromRight {
+    0% {
+      opacity: 0;
+      transform: translateX(100px); /* Start 100px to the right */
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  .binary-mode .output-box {
+    width: 10%;              /* Set width */
+    overflow-y: auto;        /* Enable scrolling */
+    margin: 10px auto;       /* Center box */
+    padding: 10px;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    background-color: #301919e8;
+    /* Animation added */
+    animation: sidebarFloatInFromRight 1.5s ease-out forwards;
+    color: #ccc;
+    font-size: 12px;
+  }
+
+  .process-graph-container {
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  

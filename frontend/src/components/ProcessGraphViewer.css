@@ -1,0 +1,74 @@
+#process-graph {
+  overflow: auto;
+  height: 800px;
+  width: 100%;
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+
+.process-graph-wrapper {
+  margin-bottom: 30px;
+  padding: 10px;
+  background: #f9f9f9;
+  border-radius: 6px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  width: auto;
+}
+
+/* Responsive tweak */
+@media (max-width: 768px) {
+  .process-graph-wrapper {
+    width: 100%;
+  }
+}
+
+/* Graph title */
+.process-graph-wrapper h4 {
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  margin-top: 0;
+  text-align: center;
+}
+
+/* SVG styling */
+.process-graph-wrapper svg {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Output thumbnails */
+.graph-output-preview {
+  margin-top: 10px;
+  padding: 6px;
+  background-color: #2b2b2b;
+  border-radius: 4px;
+  width: 100%;
+}
+
+.graph-output-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 5px;
+  justify-content: flex-start;
+}
+
+.graph-output-thumb {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 4px;
+  border: 1px solid #aaa;
+  transition: transform 0.2s ease;
+}
+
+.graph-output-thumb:hover {
+  transform: scale(1.05);
+  border-color: #fff;
+}
