@@ -14,7 +14,6 @@ import base64
 app = Flask(__name__)
 CORS(app)
 
-openai.api_key = "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"  # Don't forget to replace with your actual API key.
 
 IMAGE_FOLDER = os.path.join(os.getcwd(), "images")
 os.makedirs(IMAGE_FOLDER, exist_ok=True)
